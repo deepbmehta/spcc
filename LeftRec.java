@@ -30,7 +30,7 @@ class LeftRec{
 			System.out.print(prods[i].substring(1)+dash+"|");
 		}		
 	}
-	System.out.println("#");;
+	System.out.println("\u025B");;
 
 	}
 }
