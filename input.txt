@@ -1,0 +1,13 @@
+Macro M1 &Arg1,&Arg2,&arg3
+Load A,&Arg1
+Add B,&Arg2
+Store C,&Arg3
+Mend
+Macro M2 &Arg1,&Arg2,&Arg3
+Store A,&Arg1
+Add B,&Arg2
+Sub C,&Arg3
+Mend
+M1 2,3,4
+M2 A1,A2,A3
+
